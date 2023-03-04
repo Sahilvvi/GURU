@@ -1,0 +1,199 @@
+@media only screen and (max-width: 450px) {
+
+    .default-padding {
+        padding: 10px 20px;
+    }
+
+    #site-title {
+        font-size: 18px;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .impress {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-family: var(--font1);
+        font-weight: 600;
+    }
+
+    h2 {
+        font-family: var(--font1);
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+    h3 {
+        font-family: var(--font1);
+        font-size: 24px;
+        font-weight: 500;
+
+    }
+
+    h4 {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    h5 {
+        font-family: var(--font1);
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    p {
+        font-size: 12px;
+        font-family: var(--font2);
+        font-weight: 300;
+    }
+
+    .label {
+        font-size: 14px;
+        font-family: var(--font2);
+        font-weight: 400;
+    }
+
+    #mobile-nav {
+        display: block;
+    }
+
+    .stack {
+        flex-direction: column !important;
+
+    }
+
+    #mobile-menu li {
+        margin-top: 5%;
+    }
+
+    .reverse-stack {
+        flex-direction: column-reverse !important;
+
+    }
+
+    .mw-100 {
+        width: 100% !important;
+    }
+
+    .mw-90 {
+        width: 90% !important;
+    }
+
+    .mw-80 {
+        width: 80% !important;
+    }
+
+    #Landing .carded {
+        bottom: -70%;
+    }
+
+    #Landing img {
+        height: 300px;
+    }
+
+    img {
+        border-radius: 15px;
+    }
+
+    .program-image img {
+        border-radius: 30px;
+    }
+
+    .gap {
+        gap: 20px;
+    }
+
+    #c2 {
+        align-items: center;
+    }
+
+    #c3 {
+        align-items: center;
+    }
+
+    #separator {
+        margin: 100% 50px 10% 50px;
+        color: var(--secondary-1);
+    }
+
+    .gallery img {
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .gallery .gap {
+        gap: 10px;
+    }
+
+
+    #About .my-5 {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+
+    .footer-outro {
+        border: none;
+        border-bottom: 3px solid var(--primary-1);
+        padding: 0;
+        padding-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    #credits h5 {
+        font-size: 14px;
+    }
+
+    #credits h5 {
+        font-size: 14px;
+    }
+
+
+
+    .testimoniol-container {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        padding: 5% 2%;
+        border-top: 3px solid var(--primary-4);
+        border-bottom: 3px solid var(--primary-4);
+    }
+
+    .testimoniol-item {
+        width: 80%;
+    }
+
+    .testimoniol-item h3 {
+        font-size: 18px;
+    }
+
+    .testimoniol-item p {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .testimoniol-arrow-right {
+        font-size: 18px;
+
+    }
+
+    .testimoniol-arrow-left {
+        font-size: 18px;
+    }
+
+
+
+
+
+
+
+}

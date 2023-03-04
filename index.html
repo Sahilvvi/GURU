@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GURUKUL</title>
+    <link rel="stylesheet" href="medai.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.style.css" />
+    <link rel="stylesheet" href="all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="spaced-flex default-padding bg-primary-1 light-1">
+        <div class="left-nav">
+            <h1 id="site-title"><span class="primary-3">GURU</span>KUL</h1>
+        </div>
+        <div class="right-nav">
+            <ul class="dedecor spaced-flex font2 primary-3">
+                <li class="mx-4 animated-ul py-2 menu-item"><a href="/" class="dedecor">Home</a>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="#Facilities" class="dedecor">Facilities</a></li>
+                        <li class="submenu-item"><a href="#Activities" class="dedecor">Activities</a></li>
+                        <li class="submenu-item"><a href="#Programs" class="dedecor">Programs</a></li>
+                        <li class="submenu-item"><a href="#Circulars" class="dedecor">Circulars</a></li>
+                    </ul>
+                </li>
+                <li class="mx-4 animated-ul py-2 menu-item"><a href="about.html" class="dedecor">About</a></li>
+                <li class="mx-4 animated-ul py-2 menu-item"><a href="about.html" class="dedecor">Jobs</a></li>
+                <li class="mx-4 animated-ul py-2 menu-item"><a href="#Products" class="dedecor">Admissions</a></li>
+                <li class="ml-4 animated-ul py-2 menu-item"><a href="contact.html" class="dedecor">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobile-nav">
+            <i class="fa fa-bars primary-3" onclick="toggleMenu(event)"></i>
+            <ul id="mobile-menu" class="dedecor column-flex font2">
+                <li class="mx-auto animated-ul py-2"><a href="/" class="dedecor">Home</a></li>
+                <li class="mx-auto animated-ul py-2"><a href="about.html" class="dedecor">About</a></li>
+                <li class="mx-auto animated-ul py-2"><a href="about.html" class="dedecor">Jobs</a></li>
+                <li class="mx-auto animated-ul py-2"><a href="#Products" class="dedecor">Admissions</a></li>
+                <li class="mx-auto animated-ul py-2"><a href="contact.html" class="dedecor">Contact</a></li>
+                <li class="mx-auto my-4 py-2"><i class="fa fa-xmark large primary-3" onclick="toggleMenu(event)"></i>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="loading" class="auto-flex">
+        <i class="fa fa-spinner secondary-1 boomer" style="font-size: 100px ; position:relative; bottom:10%;"></i>
+    </section>
+    <section id="Landing" class="default-padding py-0 my-0">
+        <img src="assets/img/just-daisy-BlCJi8walFQ-unsplash.jpg" alt="">
+        <div class="carded bg-primary-1">
+            <h1 id="hook" class="impress">Welcome to GURUKUL</h1>
+            <p class="w-90" id="hook-intro">
+                Our vision is to create a community of learners where every student feels valued, supported, and inspired to achieve their full potential
+            </p>
+            <button id="hook-buttons" class="round-btn my-2">Explore <i class="fa fa-arrow-right"></i></button>
+        </div>
+    </section>
+    <hr id="separator">
+
+    <section class="default-padding">
+        <div class="auto-flex stack gap">
+            <img src="/assets/img/logo.png" alt="" class="mw-100" id="logo">
+            <div class="w-50 mw-100 column-flex px-4 py-1 impress">
+                "Warriors of life"
+            </div>
+        </div>
+    </section>
+    <section class="default-padding">
+        <div class="banner-m image-cover">
+            <img src="/assets/img/front-page-banner-image.jpg" alt="">
+        </div>
+    </section>
+    <section class="default-padding">
+        <div class="simple-flex stack gap">
+            <img src="/assets/img/picture-2.jpg" alt="" class="w-50 mw-100 banner-image fadeUp">
+            <div class="w-50 mw-90 bg-primary-2 column-flex fadeUp px-4 py-1"
+                style="justify-content: center; align-items: flex-end; border-radius: 30px;">
+                <h2>The School Moto</h2>
+                <p class="my-2 right">Education is often considered as the supreme wealth among all kinds of wealth.
+                    Unlike material wealth, education cannot be taken away from an individual. It is a lifelong asset
+                    that provides a foundation for personal and professional growth. Education enables individuals to
+                    expand their knowledge, develop new skills, and gain a deeper understanding of the world around
+                    them.</p>
+                <button class="rect-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+    <section class="default-padding">
+        <div class="spaced-flex stack gap">
+            <div class="bg-primary-2 column-flex fadeUp px-3 py-4 carded">
+                <h2>Vision</h2>
+                <p class="my-2"> Our vision is to create a community of learners where every student feels valued,
+                    supported, and inspired to achieve their full potential.</p>
+            </div>
+            <div class="bg-primary-2 end-flex column-flex fadeUp px-3 py-4 carded">
+                <h2>Mission</h2>
+                <p class="my-2 right">Our mission is to cultivate a community of lifelong learners who are curious,
+                    compassionate, and courageous in their pursuit of knowledge and personal growth. We strive to foster
+                    a culture of inclusivity and diversity, where every individual is valued and encouraged to reach
+                    their full potential.</p>
+            </div>
+
+    </section>
+    <section class="default-padding mt-5" id="Facilities">
+        <h2 class="center my-2">Facilities</h2>
+        <div class="carded default-padding bg-secondary-1 even-flex stack wrap">
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa fa-computer impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2 center">Computer lab</h3>
+                <p class="primary-3 center">Highly equipped with modern and updated software , constructed in 1,150
+                    square feet area.</p>
+            </div>
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa fa-book-open-reader impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2">Library</h3>
+                <p class="primary-3 center">Well equipped with tons of books which is built in a vast 1,800 square feet
+                    area.</p>
+            </div>
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa fa-school impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2 center">Multipurpose Hall</h3>
+                <p class="primary-3 center">Facilitates many of the school's extracurricular activities.
+                    The hall is spread across 4,500 square feet.</p>
+            </div>
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa-solid fa-tree impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2 center">Kindergarten play area</h3>
+                <p class="primary-3 center">A separate play area for the pre-primary divisions.</p>
+            </div>
+    
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa fa-school impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2">Canteen</h3>
+                <p class="primary-3 center">A hygenic and well maintainerd canteen for the ease of students.</p>
+            </div>
+            <div class="column-flex auto-flex my-2 mx-2 w-30 mw-100">
+                <div class="icon-container bg-primary-3">
+                    <i class="fa-solid fa-tree impress primary-1"></i>
+                </div>
+                <h3 class="secondary-2 center">Sports</h3>
+                <p class="primary-3 center">We have two large playgrounds that can accommodate sports such as cricket, football, and hockey.
+                    We also have Basketball court, Tennis court and Volleyball court            
+                    In addition, many more indoor sports can be accommodated.</p>
+            </div>
+        </div>
+    </section>
+    <section class="default-padding mt-5 spaced-flex stack gap">
+        <div id="c2" class="start-flex column-flex stack w-60 mw-100 px-3">
+            <h2 class="mx-5" id="Activities">Activities</h2>
+            <div class="start-flex stack wrap">
+                <div class="card fadeUp w-40 mr-5 mw-80 my-2">
+                    <h3 class="my-10">Activity-1</h3>
+                    <p class="my-10"><h5>COMING SOON </h5></p>
+                    <button class="rect-btn my-10">See More</button>
+                </div>
+                <div class="card fadeUp w-40 mr-5 mw-80 my-2">
+                    <h3 class="my-10">Activity-1</h3>
+                    <p class="my-10"><h5>COMING SOON </h5></p>
+                    <button class="rect-btn my-10">See More</button>
+                </div>
+                <div class="card fadeUp w-40 mr-5 mw-80 my-2">
+                    <h3 class="my-10">Activity-1</h3>
+                    <p class="my-10"><h5>COMING SOON </h5></p>
+                    <button class="rect-btn my-10">See More</button>
+                </div>
+                <div class="card fadeUp w-40 mr-5 mw-80  my-2">
+                    <h3 class="my-10">Activity-1</h3>
+                    <p class="my-10"><h5>COMING SOON </h5></p>
+                    <button class="rect-btn my-10">See More</button>
+                </div>
+            </div>
+        </div>
+        <div id="c3" class="end-flex column-flex w-50 mw-100">
+            <h2 class="mx-5" id="Circulars" style="text-align: center;">Circulars</h2>
+            <div class="bg-primary-3 secondary-1 carded my-2" style="display: flex;
+            flex-direction: column;
+            align-items: center;">
+                <div class="my-2">
+                    <h5>COMING SOON </h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>COMING SOON </h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>COMING SOON </h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>COMING SOON </h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>COMING SOON </h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>Circular Heading</h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+                <div class="my-2">
+                    <h5>Circular Heading</h5>
+                    <p>
+                        <h5>COMING SOON </h5>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="default-padding mt-5" id="Programs">
+        <h2 class="center">Programs</h2>
+        <div class="auto-flex stack my-2 wrap gap">
+            <div class="program-image">
+                <img src="/assets/img/jizhidexiaohailang-DJsbfCjhnJ4-unsplash.jpg" alt="">
+                <div class="program-text">
+                    <div class="program-inner">
+                        <h4>Kindergarten</h4>
+                        <h5>L.K.G. - U.K.G.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="program-image">
+                <img src="/assets/img/just-daisy-BlCJi8walFQ-unsplash.jpg" alt="">
+                <div class="program-text">
+                    <div class="program-inner">
+                        <h4>Primary School</h4>
+                        <h5>1st - 5th</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="program-image">
+                <img src="/assets/img/kristin-brown-3kBtYrZ0-hw-unsplash(1).jpg" alt="">
+                <div class="program-text">
+                    <div class="program-inner">
+                        <h4>Middle School</h4>
+                        <h5>6th - 8th</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="program-image">
+                <img src="/assets/img/stephanie-hau-vJ3CFY8iI9c-unsplash.jpg" alt="">
+                <div class="program-text">
+                    <div class="program-inner">
+                        <h4>Secondary School</h4>
+                        <h5>9th - 10th</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="program-image">
+                <img src="/assets/img/picture-2.jpg" alt="">
+                <div class="program-text">
+                    <div class="program-inner">
+                        <h4>Senior Secondary</h4>
+                        <h5>11th - 12th</h5>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+    <section class="default-padding">
+        <div class="simple-flex gap stack">
+            <img src="/assets/img/about-image-1.jpg" alt="" class="w-50 banner-image mw-100"
+                style="object-position: 50% 20%;">
+            <div class="w-50 mw-90 bg-primary-2 column-flex default-padding carded" style="justify-content: center;">
+                <h3>Contact Us</h3>
+                <form action="" class="start-flex column-flex ">
+                    <input class="input w-90 my-3" type="tel" placeholder="Enter Your Number">
+                    <input type="submit" class="round-btn my-2" value="Send">
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <section class="default-padding">
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57385.76148417496!2d73.81704218980771!3d25.980824935523103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39699333aaaaaaab%3A0xe333d97574c009be!2sChandawal%20Nagar%20POND!5e0!3m2!1sen!2sin!4v1677845638376!5m2!1sen!2sin" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="default-padding light-1">
+        <div class="container spaced-flex bg-primary-5 stack" style="border-radius: 15px;">
+            <div class="w-40 mw-100 footer-outro">
+                <h3><span class="primary-3">GURU</span>KUL</h3>
+                <p class="my-4">
+                    Our vision is to create a community of learners where every student feels valued, supported, and inspired to achieve their full potential
+                </p>
+                <div class="my-2 start-flex light-1">
+                    <a class="dedecor" target="_blank" href=""><i class="fab fa-facebook large"
+                            style="margin-right: 4px;"></i></a>
+                    <a class="dedecor" target="_blank" href=""><i class="fab fa-instagram large mx-2"></i></a>
+                    <i class="fab fa-twitter large mx-2"></i>
+                    <i class="fa fa-envelope large mx-2"></i>
+                </div>
+            </div>
+
+            <div class="spaced-flex start-flex">
+                <div class="container">
+                    <h4>Quick Links</h4>
+                    <ul class="dedecor my-10 small center">
+                        <li class="my-2">Support</li>
+                        <li class="my-2">Privacy Policy</li>
+                        <li class="my-2">Terms of use</li>
+                        <li class="my-2">Refund Policy</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h4>Resources</h4>
+                    <ul class="dedecor my-10 small center">
+                        <li class="my-2">Catalogue</li>
+                        <li class="my-2">Products</li>
+                        <li class="my-2">Careers</li>
+                        <li class="my-2">Credits</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spaced-flex start-flex">
+
+                <div class="container">
+                    <h4>Get in touch</h4>
+                    <div class="my-10">
+                        <div class="spaced-flex start-flex my-2 small">
+                            <h5 class="small">Call:</h5><span class="primary-3 ml-5">+91 984 5880 815<br>+91 774 2460
+                                295<br>+91 855 3835 236</span>
+                        </div>
+                        <div class="spaced-flex start-flex my-2 small">
+                            <h5 class="small">Email:</h5><span class="primary-3 ml-5">gokulschool.raj@gmail.com 
+                        </div>
+                        <div class="spaced-flex start-flex my-2 small">
+                            <h5 class="small">Address:</h5><span class="primary-3 ml-5 right">Chandawal nagar,<br>
+                                Murdawa road,<br>
+                                Pali district,<br>
+                                Rajasthan 306306</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="spaced-flex mt-5 stack center" id="credits">
+            <div>
+                <h5>All Rights Reserverd &copy; <span class="primary-3">GURU</span>KUL 2023</h5>
+            </div>
+            <div>Website by <a href="https://www.linkedin.com/in/sahil-yadav-442079204/" class="dedecor">SAHIL</a></div>
+        </div>
+    </footer>
+
+
+    <script src="/assets/js/app.js"></script>
+    <script src="./assets/js/all.min.js"
+        integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
